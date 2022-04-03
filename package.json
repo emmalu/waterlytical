@@ -1,0 +1,28 @@
+{
+  "name": "coastal-vantage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@arcgis/core": "^4.23.5",
+    "@esri/calcite-components": "^1.0.0-beta.80",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-load-config": "^3.1.1",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.1",
+    "svelte-spa-router": "^3.2.0",
+    "tailwindcss": "^3.0.12",
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "svelte-awesome": "^2.4.6"
+  }
+}
