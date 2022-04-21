@@ -6,19 +6,22 @@
 
   import Router from 'svelte-spa-router';
   import Home from './routes/Home.svelte';
-  import Meet from './routes/Meet.svelte';
   import Map from './routes/Map.svelte';
-  import Bytes from './routes/Bytes.svelte';
-  import Lists from './routes/Lists.svelte';
-  import Reach from './routes/Reach.svelte';
 
+  //import { latestTideStore, allStationsTidesStore } from './stores/tides.js';
+  //import { userStationsData, selectedStationData } from './stores/custom.js';
+  //import { userSettingsStore } from './stores/userSettings.js';
+
+
+  // this will log the value of the `key` store each time it changes, using
+  // a reactive expression (a Sveltism)/* 
+  //$: console.log('user settings', $userSettingsStore);
+  //$: console.log('saved stations data', $userStationsData);
+  //$: console.log('selected tide data', $selectedStationData);
+ 
   const routes = {
     '/': Home,
-    '/meet': Meet,
     '/map': Map,
-    '/bytes': Bytes,
-    '/lists': Lists,
-    '/contact': Reach,
   }
 </script>
 

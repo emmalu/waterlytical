@@ -5,20 +5,8 @@
 				<a href="#/">Home <!-- <Icon data={home} /> --></a>
 			</li>
 			<li >
-				<a href="#/meet">Meet</a>
-			</li>
-			<li>
-				<a href="#/bytes">Read</a>
-			</li>
-			<li >
-				<a href="#/lists">Browse</a>
-			</li>
-			<li >
-				<a href="#/contact">Reach</a>
-			</li>
-			<!-- <li >
 				<a href="#/map">Map</a>
-			</li> -->
+			</li>
 		</ul>
 	</nav>
 </header>

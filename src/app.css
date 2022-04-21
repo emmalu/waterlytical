@@ -11,13 +11,13 @@
   --primary-color: #ffc331;
   --secondary-color: #d0dde9;
   --tertiary-color: #1d5599;
-  --accent-color: #552448;
+  --accent-color: #000;
   --heading-color: #ffc331;
   --text-color: #333;
   --background-without-opacity: rgba(255, 255, 255, 0.85);
 }
-.bhhs {
-  color: var(--accent-color);
+.hydromapic {
+  color: var(--tertiary-color);
 }
 
 .main {
